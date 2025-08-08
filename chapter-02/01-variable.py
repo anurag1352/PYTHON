@@ -5,3 +5,5 @@ city = "Panchkula"
 
 print("Hey My Name is", name ,"I'm from", city, ".")
 print(age)
+print(type(name))
+print(type(price))
