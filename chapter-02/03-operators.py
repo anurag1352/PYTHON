@@ -3,18 +3,34 @@ a = 34
 b = 4
 c = a + b
 print (c)
+print(a -b)
+print(a * b)
+print(a / b)
+print(type(a / b))
+print(a % b) #reminder ka liye use hota hai
+print( a ** b) # a^b
 
 # ASSIGNMENT OPERATORS
-x = 4-2 # Assign 4-2 in x
-print (x)
-y = 6
-y += 3 # Increment the value of y by 3 and then assign it to y.
-y -= 1
-print (y)
+print("ASSIGNMENT OPERATORS")
+num = 10
+# num += 10
+# num -= 10
+#num *= 10
+#num %= 10
+num **= 10
+print(num)
+
 
 # COMPARISON OPERATORS (always -- true , false)
-d = 5 < 4
-print(d)
+print("RELATIONAL OPERATOR")
+x = 10
+y = 12
+print( x == y)
+print( x != y)
+print(x > y)
+print(x >= y)
+print(x < y)
+print(x <= y)
 
 # LOGICAL OPERATORS
 
