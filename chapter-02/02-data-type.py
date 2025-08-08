@@ -8,3 +8,8 @@ d = True # d is a boolean data type
 
 e = None # e is a none type variable (used for nothing)
 
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
