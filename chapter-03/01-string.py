@@ -30,3 +30,14 @@ num = "Python for devops."
 print(len(num))
 print(num[2])
 # num[6] = "p" # not allowed
+
+# 4. SLICING.
+name = "Anurag"
+cut = name[0 : 3] # ending index not include.
+print(cut)
+
+print(name[:3]) # same as cut.
+print(name[0:]) #  work as len(name).
+
+slice = name[0 : len(name)]
+print(slice)
