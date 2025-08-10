@@ -25,7 +25,7 @@ else:
 
 
 # QUS. ===== GRADE STUDENTS BASED ON MARKS. ======
-marks = input("Enter Your Marks : ")
+marks = 88
 
 if(marks >= 90):
     print("A")
@@ -37,3 +37,15 @@ elif(marks >= 60 and marks < 70):
     print("D")
 else:
     print("FAIL")
+
+# ==== NESTING STATEMENT ====
+age2 = 1
+
+if(age2 >= 18):
+    if(age2 >= 80):
+        print("Take Rest.")
+    else:
+        print("You Can drive.")
+
+else:
+    print("You can't drive.")
