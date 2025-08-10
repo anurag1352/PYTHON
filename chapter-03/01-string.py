@@ -6,3 +6,11 @@ str3 = """Anurag Sharma""" # Triple quotes.
 print(str1)
 print(str2)
 print(str3)
+
+# NESTED QUOTES.
+str4 = "They say i can't go for walk."
+str5 = 'I"m not available.'
+print(str4)
+print(str5)
+
+#
