@@ -25,4 +25,8 @@ data = "My Name is Anurag i'm 20 years old. And i'm learning python."
 dataLen = len(data)
 print(dataLen)
 
-# 3. 
+# 3. INDEXING.
+num = "Python for devops."
+print(len(num))
+print(num[2])
+# num[6] = "p" # not allowed
