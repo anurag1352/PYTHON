@@ -25,7 +25,7 @@ else:
 
 
 # QUS. ===== GRADE STUDENTS BASED ON MARKS. ======
-marks = 88
+marks = input("Enter Your Marks : ")
 
 if(marks >= 90):
     print("A")
