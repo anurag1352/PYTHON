@@ -13,4 +13,16 @@ str5 = 'I"m not available.'
 print(str4)
 print(str5)
 
-#
+# ======STRING OPERATIONS.========
+# 1. CONCATINATION.
+fname = "Python"
+lname = "Devops"
+fullName = fname + " " + lname
+print(fullName)
+
+# 2. LENGTH OF STRING.
+data = "My Name is Anurag i'm 20 years old. And i'm learning python."
+dataLen = len(data)
+print(dataLen)
+
+# 3. 
