@@ -41,3 +41,7 @@ print(name[0:]) #  work as len(name).
 
 slice = name[0 : len(name)]
 print(slice)
+
+# NEGATIVE SLICEING.
+fruit = "Apple"
+print(fruit[-3 : -1]) # ending index not include
