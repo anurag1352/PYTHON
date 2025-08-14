@@ -57,4 +57,5 @@ print(list(data.items()))
 
 print(data.get("mode"))
 print(data.update({"system" : "linux"})) # add new key:value pair.
+print(data.pop("age"))
 print(data)
