@@ -44,3 +44,13 @@ del student["score"] ["bio"]
 print(student["score"])
 
 # ===== DIRECTORY METHODS =======
+data = {
+    "role" : "SDE-2",
+    "mode" : "WFH",
+    "city" : "panchkula",
+    "age" : 20
+}
+print(data)
+print(list(data.keys()))
+print(len(list(data.values())))
+print(list(data.items()))
