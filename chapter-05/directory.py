@@ -34,3 +34,13 @@ print(student)
 print(student["name"])
 print(student["score"])
 print(student["score"] ["bio"]) # also access nested key:value.
+
+# CHANGE NESTED KEY:VALUE.
+student ["score"] ["chem"] = 89
+print(student["score"] ["chem"])
+
+# DELETE NESTED KEY:VALUE.
+del student["score"] ["bio"]
+print(student["score"])
+
+# ===== DIRECTORY METHODS =======
