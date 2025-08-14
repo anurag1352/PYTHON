@@ -54,3 +54,7 @@ print(data)
 print(list(data.keys()))
 print(len(list(data.values())))
 print(list(data.items()))
+
+print(data.get("mode"))
+print(data.update({"system" : "linux"})) # add new key:value pair.
+print(data)
