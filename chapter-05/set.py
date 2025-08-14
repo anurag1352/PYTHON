@@ -31,3 +31,11 @@ print(range)
 # clear set.
 range.clear()
 print(range)
+
+# SET UNION.
+num1 = {1,2,3,4,2}
+num2 = {1,5,6,7,8,2}
+print(num1.union(num2))
+
+# SET intersection
+print(num1.intersection(num2))
