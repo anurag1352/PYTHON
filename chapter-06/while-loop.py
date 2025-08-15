@@ -45,3 +45,21 @@ while a <= 10:
     print(a * a)
     a += 1
     
+# print elements
+val = [1,4,9,16,25,36,49,64,81,100]
+
+idx = 0
+while idx < len(val):
+    print(val[idx])
+    idx += 1
+
+# search for number
+n = (1,4,9,16,25,36,49,64,81,100)
+
+x = 36
+
+i = 0 # initialization
+while i < len(n):
+    if(n[i] == x):
+        print("Found at idx ",i)
+    i+= 1
