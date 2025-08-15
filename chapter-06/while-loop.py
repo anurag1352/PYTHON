@@ -6,11 +6,11 @@ while count <= 5:
     print("hello")
 
 # print counting
-count = 1
+count = 5
 
-while count <= 5:
+while count >= 1:
     print(count)
-    count += 1
+    count -= 1
 
 # infinite loop (don't use )
 # while True:
