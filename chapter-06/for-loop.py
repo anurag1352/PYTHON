@@ -41,3 +41,8 @@ n = int(input("Enter a number :"))
 
 for i in range(1, 11):
     print(n * i)
+
+ # PASS STATEMENT
+for i in range(5):
+    pass
+print("Some useful work")
