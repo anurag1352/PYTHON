@@ -24,3 +24,20 @@ for n in num:
         break
     idx += 1
 
+# Range function
+for i in range(10):
+    print(i)
+
+# print 1 to 100 number
+for x in range(1,101):
+    print(x)
+
+# print number 100 to 1
+for y in range(101 , 0, -1):
+    print(y)
+
+# print multiplication table of n
+n = int(input("Enter a number :"))
+
+for i in range(1, 11):
+    print(n * i)
