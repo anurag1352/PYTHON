@@ -26,3 +26,18 @@ with open("Practice.txt", "r") as f:
         else:
                 print("Not found")
 
+# WAF TO FIND IN WHICH LINE OF THE LINE OF THE FILE DOES THE WORD "LEARNING" OCCUR FIRST.
+def check_line():
+    word = "learning"
+    data = True
+    line_no = 1
+    with open("Practice.txt", "r") as f:   # READ MODE
+        while data:
+            data = f.readline()
+            if word in data:       # agar word line me hai
+                print("Word found at line:", line_no)
+                return
+            line_no += 1
+        else:
+            print("-1")   # word not found
+
